@@ -1,23 +1,23 @@
-import reactLogo from '../Pictures/sas_skill.png';
-import mongoDBLogo from '../Pictures/python_skill.png';
+import sasLogo from '../Pictures/sas_skill.png';
+import pythonLogo from '../Pictures/python_skill.png';
 import mysqlLogo from '../Pictures/SQL_skill.png';
-import nodejsLogo from '../Pictures/R_skill.png';
+import rLogo from '../Pictures/R_skill.png';
 import expressLogo from '../Pictures/express-logo.png';
 import javascriptLogo from '../Pictures/JavaScript_skill.png';
-import htmlLogo from '../Pictures/node-js-logo.png';
-import cssLogo from '../Pictures/HTML_CSS_skill.png.png';
+import nodejsLogo from '../Pictures/node-js-logo.png';
+import htmlcssLogo from '../Pictures/HTML_CSS_skill.png';
 import bootstrapLogo from '../Pictures/bootstrap-logo.png';
 
 const skills = [
     {
         "id": 1,
         "skill": "SAS",
-        "src": reactLogo
+        "src": sasLogo
     },
     {
         "id": 2,
         "skill": "Python",
-        "src": mongoDBLogo
+        "src": pythonLogo
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@ const skills = [
     {
         "id": 4,
         "skill": "R",
-        "src": nodejsLogo
+        "src": rLogo
     },
     {
         "id": 5,
@@ -42,12 +42,12 @@ const skills = [
     {
         "id": 7,
         "skill": "Node.js",
-        "src": htmlLogo
+        "src": nodejsLogo
     },
     {
         "id": 8,
         "skill": "HTML5/CSS3",
-        "src": cssLogo
+        "src": htmlcssLogo
     },
     {
         "id": 9,
