@@ -1,34 +1,54 @@
-import safeFlightGif from '../Gifs/safe-flight-example.gif';
-import mernScraperGif from '../Gifs/react-mongo-scraper-example.gif';
-import freelancersGif from '../Gifs/freelancers-example.gif';
+import TravelBuddyGif from '../Gifs/travelbuddy1.gif';
+// import ResponsivenessPortfolioGif from '../Gifs/Responsiveness_Portfolio.jpg';
+import FourChoiceQuizGif from '../Gifs/Four_choice_quiz.jpg';
+import PasswordGeneratorGif from '../Gifs/Password_Generator.jpg';
+import TemplateEngineGif from '../Gifs/Template_Engine.jpg';
 
 const projects = [
     {
         "id": 1,
-        "projectName": "Safe Flight",
-        "exampleGif" : safeFlightGif,
-        "summary": "Safe Flight is a web application designed to help the user plan out a flight itinerary with airlines that are safe, secure, and not prone to malfuntion.",
-        "techUsed": "React, MongoDB, Express, Node.js, Reactstrap, React-Router-Dom, Mongoose, Passport.js, Moment.js, Axios, Bcrypt, Bootstrap, Node-sass, and this project is deployed with Heroku.",
-        "githubLink": "https://github.com/JYoung32/safe-flight",
-        "deployedLink": "https://floating-everglades-15450.herokuapp.com/"
+        "projectName": "Travel buddy",
+        "exampleGif" : TravelBuddyGif,
+        "summary": "Travel Buddy looks to combine the tools for travel into one helpful site Combing local language translation, geolocation, and geo search we have provided a platform that allows a traveling user to find whats around and communicate with the local language.",
+        "techUsed": "Design / Coding(Responsive) / HTML,CSS,JavaScript",
+        "githubLink": "https://github.com/miosagawa/00_Travel-Buddy.git",
+        "deployedLink": "https://miosagawa.github.io/00_Travel-Buddy/index.html"
     },
-    {
-        "id": 2,
-        "projectName": "MERN Scraper",
-        "exampleGif" : mernScraperGif,
-        "summary": "MERN Scraper is a news article web application that allows the user to view news articles, save an article, it can also allow the user to post and delete notes on a save article.",
-        "techUsed": "Tech Used: React, MongoDB, Express, Node.js, Reactstrap, Bootstrap, Mongoose, Axios, Cheerio, React-Router-Dom, and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/react-mongo-scraper",
-        "deployedLink": "https://thawing-lowlands-26119.herokuapp.com/"
-    },
+    // {
+    //     "id": 2,
+    //     "projectName": "Responsiveness Portfolio",
+    //     "exampleGif" : ResponsivenessPortfolioGif,
+    //     "summary": "Safe Flight is a web application designed to help the user plan out a flight itinerary with airlines that are safe, secure, and not prone to malfuntion.",
+    //     "techUsed": "Design / Coding(Responsive) / HTML,CSS,JavaScript",
+    //     "githubLink": "https://github.com/miosagawa/01_Responsiveness-Portfolio.git",
+    //     "deployedLink": "https://miosagawa.github.io/01_Responsiveness-Portfolio/index.html"
+    // },
     {
         "id": 3,
-        "projectName": "Freelancers",
-        "exampleGif" : freelancersGif,
-        "summary": "Freelancers is a web application designed to assist the user with connect them to a local expert to get the job done. In addition, a professional can come visit the app and leave their information to later be called upon to do a job.",
-        "techUsed": "Tech Used: Express, Express-Handlebars, HTML, CSS, Javascript, MySQL, Sequelize, Node,js, Animate.CSS and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/JYoung32/freelancers",
-        "deployedLink": "https://obscure-savannah-83730.herokuapp.com/"
+        "projectName": "Four choice quiz",
+        "exampleGif" : FourChoiceQuizGif,
+        "summary": "This quiz has ten questions. The user's score is based on the percentage of questions answered correctly. The questions are based on JavaScript essentials. Unfortunately I didn't have enough time to include a timer or saved score system. I was halfway finished with these features before I ran out of time.",
+        "techUsed": "Design / Coding(Responsive) / HTML,CSS,JavaScript",
+        "githubLink": "https://github.com/miosagawa/02_Four-Choice-Quiz.git",
+        "deployedLink": "https://miosagawa.github.io/02_Four-Choice-Quiz/Assets/index.html"
+    },
+    {
+        "id": 4,
+        "projectName": "Password Generator",
+        "exampleGif" : PasswordGeneratorGif,
+        "summary": "This website generates a ramdom password. Javasxript create a password between 8 and 128 characters. To create a password, just click the red generate password button. Password has at least one small character, one big character, one number and one special character.",
+        "techUsed": "Design / Coding(Responsive) / HTML,CSS,JavaScript",
+        "githubLink": "https://github.com/miosagawa/03_Password-Generator.git",
+        "deployedLink": "https://miosagawa.github.io/03_Password-Generator/Develop/index.html"
+    },
+    {
+        "id": 5,
+        "projectName": "Template Engine",
+        "exampleGif" : TemplateEngineGif,
+        "summary": "You will build a software engineering team generator command line application. The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns.",
+        "techUsed": "Design / Coding(Responsive) / HTML,CSS,JavaScript",
+        "githubLink": "https://github.com/miosagawa/05_Template-Engine.git",
+        "deployedLink": "https://miosagawa.github.io/05_Template-Engine/Develop/output/team.html"
     }
 ];
 

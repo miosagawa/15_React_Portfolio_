@@ -10,7 +10,7 @@ const Navigation = (props) => {
 
   return (
       <Navbar color="light" light expand="md" className="sticky-top">
-        <NavbarBrand className="ml-3">Joseph Young</NavbarBrand>
+        <NavbarBrand className="ml-3">Mio Sagawa</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

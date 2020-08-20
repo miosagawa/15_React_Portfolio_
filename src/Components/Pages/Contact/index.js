@@ -6,8 +6,8 @@ import {
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
-import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.pdf"
+import headshot from "../../Pictures/profile.jpg";
+import resume from "../../Pictures/Resume_Mio Sagawa_20200707.pdf"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -40,11 +40,11 @@ const Contact = (props) => {
                             <Row>
                                 <Col xs="5"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/></Col>
                                 <Col className="text-Left m-3">
-                                    <CardTitle className="lead text-center font-weight-bold">Software Engineer</CardTitle>
+                                    <CardTitle className="lead text-center font-weight-bold">Data Scientist and Software Engineer</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Mio Sagawa</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Mio Sagawa</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : MSagawa21</NavLink>                
+                                    <NavLink href="mailto:miosagawa721@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : miosagawa721</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/mio-leiber/"><img className="logo" src={linkedInIcon} alt="Logo"/> : mio-leiber</NavLink>
+                                    <NavLink href="https://github.com/miosagawa"><img className="logo" src={githubIcon} alt="Logo"/> : miosagawa</NavLink>                
                                 </Col>
                             </Row>
                         </CardBody>
@@ -64,15 +64,15 @@ const Contact = (props) => {
                         <CardBody>
                             <Row className="justify-content-center"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/></Row>
                             <Row className="justify-content-center mt-3">
-                                <CardTitle className="lead font-weight-bold">Software Engineer</CardTitle>
+                                <CardTitle className="lead font-weight-bold">Data Scientist and Software Engineer</CardTitle>
                             </Row>
                             <hr/>
                             <Row>
                                 <Col className="text-center">
                                     <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button>
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Mio Sagawa</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Mio Sagawa</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : MSagawa21</NavLink>
+                                    <NavLink href="mailto:miosagawa721@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : miosagawa721</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/mio-leiber/"><img className="logo" src={linkedInIcon} alt="Logo"/> : mio-leiber</NavLink>
+                                    <NavLink href="https://github.com/miosagawa"><img className="logo" src={githubIcon} alt="Logo"/> : miosagawa</NavLink>
                                 </Col>                
                             </Row>
                         </CardBody>
