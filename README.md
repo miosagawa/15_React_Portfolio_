@@ -21,3 +21,7 @@ Github:https://github.com/miosagawa/15_React_Portfolio.git
 * A `Footer` component that appears on multiple pages
 
 * Update GitHub profile with pinned repositories featuring those same projects
+
+    __Project sample:__
+
+![sample](sample.png)
