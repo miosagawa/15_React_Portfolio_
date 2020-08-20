@@ -1,5 +1,5 @@
 Folder update content:
-Update date：Aug , 2020
+Update date：Aug 19, 2020
 
 URL:https://miosagawa.github.io/15_React_Portfolio/index.html
 Github:https://github.com/miosagawa/15_React_Portfolio.git
